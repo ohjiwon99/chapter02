@@ -17,10 +17,8 @@ public class SongApp {
 		System.out.println(IU.toString());
 		
 		
-	 /*song BB = new song();
-		System.out.println(BB.toString());*/
-
-	
+	 //song BB = new song("거짓말"+"BIGBANG"+"Always"+"G-DRAGON 작곡"+"2번 track"+2007);
+		//System.out.println(BB.toString());
 
 	}
 

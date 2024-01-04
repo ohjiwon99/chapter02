@@ -7,8 +7,8 @@ public class TvApp {
 		Tv tv= new Tv(7,20,false);
 		tv.status();
 		
-		/*tv.status();
-		tv.power( true );
+		tv.status();
+		tv.Power( true );
 		tv.volume( 120 ); //100으로 유지
 		tv.status();
 		
@@ -27,7 +27,7 @@ public class TvApp {
 		tv.status();
 		
 		
-		tv.power( false )*/		
+		tv.Power( false );	
 
 	}
 
