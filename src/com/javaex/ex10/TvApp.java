@@ -3,31 +3,27 @@ package com.javaex.ex10;
 public class TvApp {
 
 	public static void main(String[] args) {
-		
-		Tv tv= new Tv(7,20,false);
+
+		Tv tv = new Tv(7, 20, false);
 		tv.status();
-		
-		/*tv.status();
-		tv.power( true );
-		tv.volume( 120 ); //100으로 유지
+
 		tv.status();
-		
-		
-		tv.volume( false );
+		tv.Power(true);
+		tv.volume(120); // 100으로 유지
 		tv.status();
-		
-		
-		tv.channel( 0 );
+
+		tv.volume(false);
 		tv.status();
-		
-		
-		tv.channel( true );
-		tv.channel( true );
-		tv.channel( true );
+
+		tv.channel(0);
 		tv.status();
-		
-		
-		tv.power( false )*/		
+
+		tv.channel(true);
+		tv.channel(true);
+		tv.channel(true);
+		tv.status();
+
+		tv.Power(false);
 
 	}
 
