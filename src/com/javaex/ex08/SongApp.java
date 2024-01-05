@@ -9,6 +9,7 @@ public class SongApp {
 		Song IU= new Song("좋은날","아이유","Real","이민수작곡",3,2010);
 		//System.out.println(IU.toString());
 		
+
 	    Song BB = new Song("거짓말","BIGBANG","Always","G-DRAGON",2,2007);
 		//System.out.println(BB.toString());
 	    
@@ -20,6 +21,11 @@ public class SongApp {
 	    BSK.showInfo();
 
 	
+
+		System.out.println(IU.toString());
+		
+		
+	 
 
 	}
 
