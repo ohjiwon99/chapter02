@@ -1,4 +1,4 @@
-package com.javaex.ex19;
+package com.javaex.ex20;
 
 public class ShapeApp {
 
@@ -27,10 +27,16 @@ public class ShapeApp {
 
 		// 사각형의 가로값 가져오기->형변환
 		System.out.println(((Ractangle) sArray[0]).getWidth());
-		
-		//원의 반지름 구하기
-		System.out.println(((Circle)sArray[2]).getRadius());
-		
+
+		// 원의 반지름 구하기
+		System.out.println(((Circle) sArray[2]).getRadius());
+
+		// 전체면적구하기
+		for (int i = 0; i < sArray.length; i++) {
+			System.out.println(sArray[i].area());
+			
+		}
+
 	}
 
 }
